@@ -12,12 +12,16 @@ This repository contains two complete, independent training experiments:
 ### Setup & Usage
 
 **1. Environment Setup**
-```bash
-# Install required libraries
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
-pip install numpy tifffile tqdm
-```
 
+First, create a virtual environment. Then, install all the necessary libraries using the `requirements.txt` file.
+
+```bash
+# It is recommended to install PyTorch first to ensure CUDA compatibility.
+# Go to [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) for the correct command.
+
+# Install all other dependencies
+pip install -r requirements.txt
+ ```
 **2. Data Preparation**
 - Download the HSI dataset from one of the official links below. The `.zip` file contains both the HSI and RGB data. Unzip it and place the `VOC2007` folder inside this project directory.
     - **Baidu Cloud:** [[link](https://pan.baidu.com/s/1mtXDJfU6M8F60GZinLam-w), password: 6shr]
