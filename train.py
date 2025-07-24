@@ -26,7 +26,7 @@ n_classes = len(label_map)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Learning parameters
-checkpoint =  './checkpoint_ssd300.pth.tar'  # Set to './BEST_checkpoint_ssd300.pth.tar' to resume training
+checkpoint =  './BEST_checkpoint_ssd300.pth.tar'  # Set to './BEST_checkpoint_ssd300.pth.tar' to resume training
 batch_size = args.batch_size  # Batch size is now set from the command line
 start_epoch = 0
 epochs = 400
