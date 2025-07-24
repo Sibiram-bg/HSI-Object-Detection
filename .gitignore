@@ -1,0 +1,14 @@
+# Ignore the dataset
+VOC2007/
+VOC2007_Hyper/
+
+# Ignore results
+results/
+results_transfer/
+
+# Ignore saved models (checkpoints)
+*.pth.tar
+
+# Ignore Python virtual environment and cache
+hsi_env/
+__pycache__/

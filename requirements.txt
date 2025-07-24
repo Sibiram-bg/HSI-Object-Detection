@@ -1,0 +1,19 @@
+# Torch and Torchvision are the core deep learning libraries.
+# NOTE: It's highly recommended to install these first using the official
+# command from the PyTorch website to ensure CUDA compatibility.
+# https://pytorch.org/get-started/locally/
+torch
+torchvision
+torchaudio
+
+# Used for numerical operations and handling image arrays.
+numpy
+
+# For reading and writing TIFF files, replacing the old libtiff.
+tifffile
+
+# Used for creating progress bars during evaluation.
+tqdm
+
+# The modern library for PIL (Python Imaging Library) functionality.
+Pillow
