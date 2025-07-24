@@ -61,4 +61,4 @@ pip install -r requirements.txt
 
 ### Acknowledgements
 
-This project is a modified and enhanced version of the original [HSI-Object-Detection-NPU](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU) repository. The original paper, "Object Detection in Hyperspectral Images," can be found [here](https://ieeexplore.ieee.org/document/9365545).
+This project is a modified and enhanced version of the original [HSI-Object-Detection-NPU](https://github.com/yanlongbinluck/HSI-Object-Detection-NPU) repository. The original paper, "Object Detection in Hyperspectral Images," can be found [here](https://ieeexplore.ieee.org/document/9354961).
